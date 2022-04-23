@@ -3,7 +3,7 @@ class ReverseLLIterativeWay {
     Node head;
     private int size;
     
-    LL(){
+    ReverseLLIterativeWay(){
         this.size = 0;
     }
     
@@ -126,7 +126,7 @@ class ReverseLLIterativeWay {
     }
     
     public static void main(String [] args){
-        LL list = new LL();
+        ReverseLLIterativeWay list = new ReverseLLIterativeWay();
         
         list.addAtLast("1");
         list.addAtLast("2");
