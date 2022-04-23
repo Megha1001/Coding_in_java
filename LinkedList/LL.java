@@ -1,3 +1,4 @@
+//Scratch implementation of linked list
 class LL {
     Node head;
     private int size;
