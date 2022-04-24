@@ -1,4 +1,4 @@
-class StackStratchImpl {
+class StackStratchThLL {
     
     static class Node{
         int data;
