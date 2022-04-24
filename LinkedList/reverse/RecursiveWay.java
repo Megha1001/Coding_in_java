@@ -115,7 +115,7 @@ class RecursiveWay {
         head.next.next = head;
         head.next = null;
         
-        return NewHead;
+        return newHead;
         
     }
     
