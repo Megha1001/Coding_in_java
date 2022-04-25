@@ -1,5 +1,4 @@
 class StackImplThLL {
-    
     static class Node{
         int data;
         Node next;
@@ -11,7 +10,8 @@ class StackImplThLL {
     }
     
     static class Stack{
-        public static Node head;
+        public static  Node head;
+        
         public static boolean isEmpty(){
             return head == null;
         }
@@ -27,7 +27,7 @@ class StackImplThLL {
             head = newNode;
         }
         
-        public static int pop(){
+        public static int  pop(){
             if(head == null){
                 return -1;
             }
