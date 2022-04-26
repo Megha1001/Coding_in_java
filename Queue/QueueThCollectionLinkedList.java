@@ -2,6 +2,7 @@ import java.util.*;
 
 class QueueThCollectionLinkedList {
     public static void main(String[] args) {
+        //Queue is interface
         Queue<Integer> q = new LinkedList<>();
         
         q.add(1);
