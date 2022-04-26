@@ -37,7 +37,7 @@ class QueueImplThArray{
         }
         
         
-        // Front - O(n)
+        // Front - O(1)
         public static int peek(){
             if(isEmpty()){
                 return -1;
