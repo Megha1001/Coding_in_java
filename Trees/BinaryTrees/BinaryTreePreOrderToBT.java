@@ -17,7 +17,7 @@ class BinaryTreePreOrderToBT {
         
         public static Node buildTree(int [] nodes){
             idx++;
-            if(nodes[idx] == -1){ //there is a null tree
+            if(nodes[idx] == -1){ // no nodes persent in tree
                 return null;
             }
             
