@@ -48,14 +48,14 @@ class BinaryTreeHeight {
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
         System.out.println("Node of tree : "+ root.data);
-        System.out.println("Sum of Nodes : "+tree.height(root));
+        System.out.println("Height of tree : "+tree.height(root));
   
     }
     
     /*OUTPUT
     ---------------
     Node of tree : 1
-    Sum of Nodes : 3
+    Height of tree : 3
     */
     
 }
