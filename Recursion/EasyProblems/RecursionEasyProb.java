@@ -1,5 +1,3 @@
-package easy;
-
 public class RecursionEasyProb {
 	public static void main(String [] args) {
 		System.out.println("-----Natural number in desending order-----");
