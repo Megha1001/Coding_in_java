@@ -27,7 +27,7 @@ public class MinAndMaxLinearSearchBruteForce {
 			 if(pair.max < input[i]) {
 				 pair.max  = input[i];
 			 }
-			 if(pair.min > input[i]) {
+			 else if(pair.min > input[i]) {
 				 pair.min = input[i];
 			 }
 		 }
