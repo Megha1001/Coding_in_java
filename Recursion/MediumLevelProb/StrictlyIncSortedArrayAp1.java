@@ -13,7 +13,7 @@ public class StrictlyIncSortedArrayAp1 {
 		}
 		System.out.println(input[currIdx] +","+input[currIdx +1] );
 		if(input[currIdx] < input[currIdx + 1]) {
-			isStrictlyInc(input, currIdx +1);
+			return isStrictlyInc(input, currIdx +1);
 		}
 		else {
 			result = false;
