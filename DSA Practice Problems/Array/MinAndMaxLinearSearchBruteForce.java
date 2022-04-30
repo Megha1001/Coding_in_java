@@ -1,3 +1,5 @@
+package arrays;
+
 public class MinAndMaxLinearSearchBruteForce {
 	static class Pair{
 		int min;
@@ -13,16 +15,12 @@ public class MinAndMaxLinearSearchBruteForce {
 			return pair;
 		}
 		
-		if(size ==2) {
-			if(input[0] > input[1]) {
-				pair.min = input[0];
-				pair.max = input[1];
-				return pair;
-			}else {
-				pair.min = input[1];
-				pair.max = input[0];
-				return pair;
-			}
+		if(input[0] > input[1]) {
+			pair.max = input[0];
+			pair.min = input[1];
+		}else {
+			pair.min = input[0];
+			pair.max = input[1];
 		}
 		
 		for(int i = 2 ; i < input.length ; i++) {
@@ -37,7 +35,7 @@ public class MinAndMaxLinearSearchBruteForce {
 		
 	}
 	public static void main(String[] args) {
-	 int [] input = {1,2,3,5,10,6,0,-1};
+	 int [] input = {1,20,3,5,10,6,0,-1};
 	 Pair minMax = getMinAndMax(input, input.length);
 	 System.out.println("Max : "+minMax.max+ " , Min : "+minMax.min);
 	}
