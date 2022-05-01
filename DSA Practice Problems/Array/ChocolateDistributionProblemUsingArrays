@@ -1,0 +1,21 @@
+//Question : https://www.geeksforgeeks.org/chocolate-distribution-problem/
+import java.util.Arrays;
+
+public class ChocolateDistributionProblemUsingArrays {
+	public static void main(String[] args) {
+		int [] input = {12, 4, 7, 9, 2, 23, 25, 41, 
+				30, 40, 28, 42, 30, 44, 48, 
+				43, 50};
+		int stds = 7;
+		
+		Arrays.sort(input);
+		int min = input[stds-1] -input[0];
+		for(int i = 1 ; i<= input.length - stds; i++) {
+			if(input[stds - 1 + i] - input[i] < min) {
+				min = input[stds - 1 + i] - input[i];
+			}
+		}
+		System.out.println(min);
+	}
+
+}
