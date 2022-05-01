@@ -9,7 +9,7 @@ public class MaxSubArraySumKadaneAlgo {
 			if(currSum > maxSum) {
 				maxSum = currSum;
 			}
-			else if(currSum < 0) {
+			if(currSum < 0) {
 				currSum = 0;
 			}
 		}
