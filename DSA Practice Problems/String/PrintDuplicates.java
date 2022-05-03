@@ -1,7 +1,7 @@
 public class PrintDuplicates {
 
 	public static void main(String[] args) {
-		String input = "geeksforgeeks";
+		String input = "meghaverma";
 		int [] alphabets = new int[26];
 		for(char i : input.toCharArray()) {
 			alphabets[i -'a'] ++;
