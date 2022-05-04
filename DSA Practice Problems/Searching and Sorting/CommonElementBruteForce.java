@@ -3,7 +3,7 @@ public class CommonElementBruteForce {
 		System.out.println("Inside func");
 		for(int i =0; i < ar1.length ;i++) {
 			boolean flag = false;
-			int element = -1;
+			int element = Integer.MIN_VALUE;
 			for(int j =0; j < ar2.length ;j++) {
 				if(ar1[i] == ar2[j]) {
 					element = ar1[i];
