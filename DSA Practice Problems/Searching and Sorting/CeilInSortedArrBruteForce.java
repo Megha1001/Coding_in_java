@@ -1,6 +1,8 @@
+package searchAndSorting;
+
 public class CeilInSortedArrBruteForce {
 	public static int findCeilIdx(int[] input, int k) {
-		if(k < input[0]) {
+		if(k <= input[0]) {
 			return 0;
 		}
 		
