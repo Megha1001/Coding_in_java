@@ -15,6 +15,7 @@ public class RunLengthEncodingO_N {
 			}else {
 				result.append(input.charAt(i));
 				result.append(count);
+				count=1;
 			}
 			
 		}
