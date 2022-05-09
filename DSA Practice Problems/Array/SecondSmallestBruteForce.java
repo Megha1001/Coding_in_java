@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class SecondSmallestBruteForce {
 	public static int findSecondSmall(int [] arr) {
-		int secSmall = Integer.MIN_VALUE;
+		int secSmall = Integer.MAX_VALUE;
 		Arrays.sort(arr);
 		secSmall = arr[1];
 		
