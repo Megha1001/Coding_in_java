@@ -16,6 +16,7 @@ public class NumberOfNodesIterative {
 	
 	static class BinaryTree{
 		static int count = 0;
+		// Time Complexity : O(n), auxilary space : θ(width)
 		public static int countNodes(Node root) {
 			Queue<Node> q = new LinkedList<Node>();
 			if(root == null) {
