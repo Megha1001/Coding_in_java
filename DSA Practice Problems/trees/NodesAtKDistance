@@ -1,0 +1,42 @@
+// GFG link to Compile : https://practice.geeksforgeeks.org/problems/k-distance-from-root/1/
+// } Driver Code Ends
+
+
+//User function Template for Java
+
+/*
+class Node
+{
+    int data;
+    Node left, right;
+   Node(int item)    {
+        data = item;
+        left = right = null;
+    }
+} */
+
+class Tree
+{
+    public static ArrayList<Integer>  findNodes(Node root, int k, ArrayList<Integer> result){
+        
+        if(root == null){
+            return null;
+        }
+        
+        if(k == 0){
+           result.add(Integer.valueOf(root.data));
+           return result;
+        }
+        
+        findNodes(root.left, k - 1,result);
+        findNodes(root.right, k - 1,result);
+       return result; 
+    }
+     // Recursive function to print right view of a binary tree.
+     ArrayList<Integer> Kdistance(Node root, int k)
+     {
+         ArrayList<Integer> result = new ArrayList<>();
+         result = findNodes(root, k,result);
+         return result;
+     }
+}
