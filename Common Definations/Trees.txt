@@ -1,1 +1,2 @@
 1. Balanced Tree : Difference of height of left sub tree and right sub tree should not be more than one and this should be true for each node.
+2. Diameter of Binary tree : no of nodes on the longest path b/w two leaf nodes
