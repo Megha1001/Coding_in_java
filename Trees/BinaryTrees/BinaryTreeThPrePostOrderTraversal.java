@@ -14,6 +14,7 @@ public class BinaryTreeThPrePostOrderTraversal {
 		}
 	}
 	
+	//Time complexity : O(N^2)
 	public static Node buildTree(int[] in, int [] pre, int start, int end) {
 		
 		// For leaf node child
