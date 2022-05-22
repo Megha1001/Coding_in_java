@@ -1,9 +1,15 @@
 public class DeleteAnElement {
 	
-	//Time Complexity : O(N)
+	//Time Complexity : Delete from begining O(N)
 	public static int deleteElment(int[] arr, int toDelete, int capacity) {
 		int i = 0;
 		int index = -1;
+		
+		//deleting last element --> Time Complexity : O(1)
+		if(toDelete == arr[capacity -1]{
+			return capacity -1;
+		}
+		
 		for(i = 0; i < capacity ; i++) {
 			if(arr[i] == toDelete) {
 				index = i;
