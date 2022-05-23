@@ -1,6 +1,6 @@
 package array;
 
-public class SecondLargest {
+public class SecondLargestO_N2 {
 
 	public static int getLargest(int[] arr, int length) {
 		int max = arr[0];
