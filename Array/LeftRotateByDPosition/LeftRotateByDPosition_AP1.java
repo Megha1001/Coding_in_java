@@ -37,6 +37,5 @@ public class LeftRotateByDPosition_AP1 {
 		}
 	}
 
-
 	// Extended Question : iF d > N then we need to subtract N from d (d-N) to get the effective rotation
 }
