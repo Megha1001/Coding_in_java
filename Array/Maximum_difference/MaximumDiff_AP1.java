@@ -1,5 +1,5 @@
 package array;
-
+//Maximum difference of arr[j] - arr[i] such that j>i
 public class MaximumDiff_AP1 {
 
   //Time complexity : O(N^2)
