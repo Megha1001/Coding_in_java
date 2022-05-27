@@ -5,7 +5,7 @@ public class TrappingWater_AP1 {
   //Time complexity : O(n^2), auxiliary space : θ(1)
 	public static int findTotalTrpngWtr(int []arr, int n) {
 		int result = 0;
-		for(int i = 0; i < n; i++) {
+		for(int i = 1; i < n -1; i++) { // we can't store water on leftmost and rightmost bar
 
 			// max value in left of current element
 			int leftMax = arr[i];
