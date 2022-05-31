@@ -37,7 +37,7 @@ public class LastOccurrence_Recursive {
 			System.out.print(arr[i] + " ");
 		}
 		int search = 20;
-		System.out.println("\nGiven element " + search + " first occurrence present at index : "
+		System.out.println("\nGiven element " + search + " last occurrence present at index : "
 				+ findLastOccur(arr, 0, arr.length - 1, search));
 
 	}
