@@ -18,7 +18,7 @@ public class LastOccurrence_Naive {
 			System.out.print(arr[i] + " ");
 		}
 		int search = 20;
-		System.out.println("\nGiven element " + search + " first occurrence present at index : "
+		System.out.println("\nGiven element " + search + " last occurrence present at index : "
 				+ findLastOccur(arr,arr.length - 1, search));
 
 	}
