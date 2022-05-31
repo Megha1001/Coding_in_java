@@ -3,7 +3,7 @@ package searching;
 public class LastOccurrence_Naive {
 
 	public static int findLastOccur(int[] arr, int n, int x) {
-		for(int i = n-1; i >=0; i--) {
+		for(int i = n; i >=0; i--) {
 			if(arr[i]==x) {
 				return i;
 			}
