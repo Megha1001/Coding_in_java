@@ -5,7 +5,7 @@ public class FindFirstOccurrence_AP2 {
 	//Time Complexity : O(N)
 	public static int findFirstOccur(int[]arr, int n , int x) {
 		
-		for(int i = 0; i < n; i++) {
+		for(int i = 0; i <= n; i++) {
 			if(arr[i] == x) {
 				return i;
 			}
