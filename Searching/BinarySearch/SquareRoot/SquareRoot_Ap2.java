@@ -2,7 +2,7 @@ package searching;
 
 public class SquareRoot_Ap2 {
 	
-  // Time COmplexity : O(N)
+  //  Time COmplexity : O(N^1/2)
 	public static int findSqrRoot(int x) {
 		int i =1;
 		while( i * i <= x) {
