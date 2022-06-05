@@ -1,0 +1,2 @@
+1. Find peak element by binary search
+https://github.com/Megha1001/Coding_in_java/blob/main/Searching/BinarySearch/FindPeakElement/FindPeakElement_Efficient.java
