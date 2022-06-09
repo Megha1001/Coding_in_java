@@ -1,0 +1,2 @@
+1. Arrays.sort() for primitive types : Does not provide you to provide custom comparator, you can only sort in increasing order/natural order/decreasing order.
+Note : this is only for primitive types not for non-primitive type
