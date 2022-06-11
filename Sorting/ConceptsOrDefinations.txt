@@ -1,12 +1,32 @@
 1. Arrays.sort() for primitive types : Does not provide you to provide custom comparator, you can only sort in increasing order/natural order/decreasing order.
 Note : this is only for primitive types not for non-primitive type
 
+2. BUBBLE SORT
+- Comparision based sort
+- Compare adjacent elements
+- Require n-1 pass, in every pass largest element comes at it's original position.
+- O(N^2) complexity
+- O(N) --> when array is sorted and optimized is applied with swapped flag
+
+
 2. SELECTION SORT
 -Comparision based algo
 -Less memory writes.Cycle Sort is optimal in terms of memory writes
   - memory writes can be costly operation EEPROM, in EEPROM if we do more writes, age of memory reduces
   - memory writes putting data on hard disk
   -etc
- - Basic Idea for Heap Sort
- - Not Stable(in case of duplicates, it does not gurantee to maintain the order)
- - Inplace(doesnot require extra data structure to sort)
+- Basic Idea for Heap Sort
+- Not Stable(in case of duplicates, it does not gurantee to maintain the order)
+- Inplace(doesnot require extra data structure to sort)
+- O(N^2) complexity
+
+
+3. INSERTION SORT
+- O(N^2) complexity
+- In-place algo ( auxiliary space - O(1))
+  Quick sort is also said to be inplace (but it also requries recurssion stack) --> insertion sort does not require this.
+- Used in practice for small arrays(TimSort and IntroSort)
+  -TimSort is hybrid algorithm for general purpose array is use merge sort but when array becomes shorter it switch to insertion sort
+  -IntroSort is hybrid algortith that uses Quick , Insertion and Heap Sort.
+- Stable.
+- O(N) in best case.
