@@ -9,7 +9,7 @@ Note : this is only for primitive types not for non-primitive type
 - O(N) --> when array is sorted and optimized is applied with swapped flag
 
 
-2. SELECTION SORT
+3. SELECTION SORT
 -Comparision based algo
 -Less memory writes.Cycle Sort is optimal in terms of memory writes
   - memory writes can be costly operation EEPROM, in EEPROM if we do more writes, age of memory reduces
@@ -21,7 +21,7 @@ Note : this is only for primitive types not for non-primitive type
 - O(N^2) complexity
 
 
-3. INSERTION SORT
+4. INSERTION SORT
 - O(N^2) complexity
 - In-place algo ( auxiliary space - O(1))
   Quick sort is also said to be inplace (but it also requries recurssion stack) --> insertion sort does not require this.
