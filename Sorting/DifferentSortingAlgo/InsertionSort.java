@@ -9,7 +9,7 @@ public class InsertionSort {
 			int key = arr[i];
 			int j = i-1;
 			// check for greater element from Right to Left
-			while(j >= 0 && arr[j] > key) {
+			while(j >= 0 && arr[j] > key) { // > condition is for making this algo stable
 				arr[j+1] = arr[j];
 				j--;
 			}
