@@ -30,3 +30,17 @@ Note : this is only for primitive types not for non-primitive type
   -IntroSort is hybrid algortith that uses Quick , Insertion and Heap Sort.
 - Stable.
 - O(N) in best case.
+
+
+5. MERGE SORT
+- Divide and conquer Algorithm
+- Stable algorithm
+- θ(n log n) Time and θ(n) aux space
+- Well suited for linked lists. works in O(1) aux space.
+- Used in External Sorting
+  - It is a term for a class of sorting algorithms that can handle massive amounts of data. External sorting is required when the data being sorted do not fit into
+  main memory of a computing device(usually RAM) and instead, they must reside in the slower external memory(usually a hard drive).External sorting typically uses
+  a hybrid sort-merge strategy. In the sorting phase, chunks of data small enough to fit in main memory are read, sorted, and written out to a temporary file.
+  In the merge phase,the sorted sub-files are combined into a single larger file.
+- Not in place in normal form/typical form
+- In general for arrays, QuickSort outperforms(performs better than Merge Sort)
