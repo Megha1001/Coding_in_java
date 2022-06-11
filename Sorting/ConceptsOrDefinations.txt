@@ -9,4 +9,4 @@ Note : this is only for primitive types not for non-primitive type
   -etc
  - Basic Idea for Heap Sort
  - Not Stable(in case of duplicates, it does not gurantee to maintain the order)
- - Not inplace(doesnot require extra data structure to sort)
+ - Inplace(doesnot require extra data structure to sort)
