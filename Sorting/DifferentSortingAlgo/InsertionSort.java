@@ -1,6 +1,6 @@
 package sorting;
 
-public class InsertionSortEfficient {
+public class InsertionSort {
 	
   //Time Complexity - O(N^2)
 	public static void insertionSort(int[]arr, int n) {
