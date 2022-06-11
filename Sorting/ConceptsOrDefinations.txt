@@ -1,2 +1,12 @@
 1. Arrays.sort() for primitive types : Does not provide you to provide custom comparator, you can only sort in increasing order/natural order/decreasing order.
 Note : this is only for primitive types not for non-primitive type
+
+2. SELECTION SORT
+-Comparision based algo
+-Less memory writes.Cycle Sort is optimal in terms of memory writes
+  - memory writes can be costly operation EEPROM, in EEPROM if we do more writes, age of memory reduces
+  - memory writes putting data on hard disk
+  -etc
+ - Basic Idea for Heap Sort
+ - Not Stable(in case of duplicates, it does not gurantee to maintain the order)
+ - Not inplace(doesnot require extra data structure to sort)
