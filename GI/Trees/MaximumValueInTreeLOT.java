@@ -1,6 +1,6 @@
 import java.util.*;
 
-class MaximumValueInTree{
+class MaximumValueInTreeLOT{
    static class Node{
 		int key;
 		Node left;
