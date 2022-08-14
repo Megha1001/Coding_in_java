@@ -1,3 +1,13 @@
+//It uses Red - black tree
+/*
+Red - black tree
+1. Every node is either red or black
+2. Root node is always black
+3. There cannot be two consecutive red nodes
+    - Meaning red node cann't have red parent or red parent cann't have red child
+4. No of black nodes from any node to leaf node should be same in each path 
+*/
+
 import java.util.*;
 
 class TreeSet{
