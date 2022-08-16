@@ -1,0 +1,27 @@
+Chaining
+-------------
+1. Hash Table never fills
+2. Less sensitive to hash functions
+3. Poor cache performance.
+4. Extra space for links.
+
+
+Open Addressing
+------------------
+1. Table may become full and resizing becomes mandatory.
+2. Extra care required for hash clustering
+3. Cache friendly.
+4. Extra space might be needed to achieve performance as chaining
+
+
+
+Explaination of point 4.
+Searches required for unsuccessful search in 
+  1. Chaining : 1 + α
+  2. Open Addressing : 1/(1 -α)
+
+if cache is 90 % filled , inorder to search key searches require are as follows
+1. Chaining : 1.9
+2. Open Addressing : 1/(1- .9) = 10
+
+so inorder to increase performance of Open Addressing , we need to decrease value of  α which is n/m (number of key / size of hash table) that means we need to increase size of hash table
