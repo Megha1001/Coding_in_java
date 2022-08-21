@@ -38,13 +38,13 @@ class DFSConnectedAndSourceGiven {
 
     }
 
-    static void BFSRec(ArrayList < ArrayList < Integer >> adj, int s, boolean[] visited) {
+    static void DFSRec(ArrayList < ArrayList < Integer >> adj, int s, boolean[] visited) {
         visited[s] = true;
         System.out.print(s + " ");
 
         for (int u: adj.get(s)) {
             if (!visited[u]) {
-                BFSRec(adj, u, visited);
+                DFSRec(adj, u, visited);
             }
         }
     }
