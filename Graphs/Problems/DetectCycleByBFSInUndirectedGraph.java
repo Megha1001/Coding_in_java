@@ -1,4 +1,8 @@
 // Detect cycle in undirected graph by BFS
+/*
+LOGIC : Maintain a parent array list  , during traversing of adjacency list if node is not visited set the parent of node in the list, else if visited
+check the parent of node != current node in adjacency list.
+*/
 
 import java.util.*;
 
