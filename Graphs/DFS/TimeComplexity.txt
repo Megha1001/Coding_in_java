@@ -1,0 +1,27 @@
+// SAME AS BFS
+
+Time Complexity : O(V+E)
+
+why E : 
+for innermost loop :
+    calling DFS function
+      for(int v : adj.get(u)){
+        if(!visited[v] ){
+          visited[v] = true;
+          q.add(v);
+        }
+      }
+  
+  
+ We are going through every adjacent node of every node that means traversing adjacency list of 1st item then 2nd item and so on
+ 
+ If we know the sum of length of all the adjacency list = time complexity
+  since , we are going to traverse all the adjacency lists
+ 
+ Sum of length of adjacency list 
+            for undirected graph : 2 * E;
+            for directed graph : E;
+
+so that is the reason of E
+but why V is added to time complexity 
+  -> For corner case where graph if fully disconnected --> meaning there are no edges --> for this case we need to add V
