@@ -1,6 +1,7 @@
+// Detect cycle in undirected graph by BFS
 import java.util.*;
 
-class DetectCycleByDFS {
+class DetectCycleByDFSInUndirectedGraph {
     public static void main(String[] args) {
         int v = 6;
         ArrayList < ArrayList < Integer >> adj = new ArrayList < ArrayList < Integer >> (v);
