@@ -9,8 +9,8 @@ Approach :
                 - ensure that prev variable has the value of last visited node key
         - current node is > prev node if not return false
         - check for right
-    
-    TIME COMPLEXITY : O(N)
+     
+    TIME COMPLEXITY : O(N) ; Auxiliary Space : O(H)
 */
 
 class checkForBSTO_N_UsingInOrderTrav{
@@ -57,3 +57,7 @@ class checkForBSTO_N_UsingInOrderTrav{
     }
 
 }
+
+/*
+is Given tree is BST ? false
+*/
