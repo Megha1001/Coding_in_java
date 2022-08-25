@@ -1,3 +1,5 @@
+//Question : https://practice.geeksforgeeks.org/batch/dsa-4/track/DSASP-Graph/problem/print-adjacency-list-1587115620
+
 class PrintAdjacencyList {
     // Function to return the adjacency list for each vertex.
     public ArrayList<ArrayList<Integer>> printGraph(
