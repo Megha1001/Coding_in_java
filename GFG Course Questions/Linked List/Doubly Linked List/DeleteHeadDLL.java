@@ -16,7 +16,7 @@ class DeleteHeadDLL {
         head = insertBegin(head, 4);
         System.out.println("Given DLL");
         printDLL(head);
-        System.out.println("Reversed DLL :");
+        System.out.println("Modified DLL :");
         head = deleteHead(head);
         printDLL(head);
     }
@@ -50,6 +50,7 @@ class DeleteHeadDLL {
 }
 /* Output
 Given DLL
-4 3 2 1 Reversed DLL :
+4 3 2 1 
+Modified DLL :
 3 2 1 
 */
