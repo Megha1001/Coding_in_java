@@ -93,3 +93,15 @@ class DeleteHead {
     }
 
 }
+
+
+/*
+OUTPUT :
+Insert 10,20,30,40,50 in CLL at end
+CLL :
+10 20 30 40 50 
+CLL after deleting head node via O(N) approach
+20 30 40 50 
+CLL after deleting head node via O(1) approach
+30 40 50 
+*/
