@@ -43,12 +43,12 @@ class InsertAtBegin {
         }
 
         Node temp = head;
-        while (temp.next != null) {
+        while (temp.next != head) {
             temp = temp.next;
         }
         temp.next = node;
         node.next = head;
-        return head;
+        return temp;
     }
   
   /*
