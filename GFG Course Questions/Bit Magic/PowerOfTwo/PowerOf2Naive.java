@@ -11,7 +11,7 @@ public class PowerOf2Naive {
     }
 
     static boolean powerOfTwo(int n) {
-        if(n == 0) return true;
+        if(n == 0) return false;
 
         while(n != 1) {
             //odd number checking other than 1
