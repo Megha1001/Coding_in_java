@@ -37,3 +37,8 @@ public class FindOnlyOddTimesOccNumberXOR {
     }
 
 }
+
+/*
+OUTPUT :
+The only odd number of times occuring number in given array is 8
+*/
