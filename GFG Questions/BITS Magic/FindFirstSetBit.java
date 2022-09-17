@@ -1,3 +1,4 @@
+//Question : https://practice.geeksforgeeks.org/batch/dsa-4/track/DSASP-BitMagic/problem/find-first-set-bit-1587115620
 class Solution
 {
     //Function to find position of first set bit in the given number.
