@@ -1,0 +1,28 @@
+Sorting in Java
+  - Arrays
+    - Primitive - dual pivot Quick sort --Stability doesn't matter --> fast then collections
+    - Non-primitive - based on merge sort and adaptation of timSort --> stability matters --> slightly slow then dual pivot quick sort
+  - Collections
+    - Non-primitive - based on merge sort and adaption of timSort --> stability matters.
+ 
+ Quick sort - unstable, Merge sort - stable
+ 
+ 
+ Arrays
+  - Methods
+    Arrays.sort(arr); //sort in natural order
+    Arrays.sort(arr,start, end); --> [start, end)
+    Arrays.sort(arr, Collections.reverseOrder()); //sort in non-increasing order
+    
+ Collections
+  - Methods
+    Colletions.sort(list) --> accepts on linkinterface --> ArrayList, LinkedList, Vector
+    Collections.sort(list, Collections.reverseOrder())
+   
+   
+   
+Stable & Unstable algo
+Stable - for two same value of comparing field in object it maintain the order of appearing in given inpu
+
+Stable Algo : Bubble sort, Insertion sort, Merge sort (IBM)
+Non stable : Selection sort, Quick Sort, heap sort (SHQ)
