@@ -24,7 +24,7 @@ public class MergeSortedArraysEfficient{
         int k = 0;
         
         while(i < m && j < n){
-            if(arr1[i] < arr2[j]){
+            if(arr1[i] <= arr2[j]){// '=' is for stability
                 res[k++] = arr1[i++];
             }else{
                 res[k++] = arr2[j++];
