@@ -51,6 +51,6 @@ Inplace and stable
 Used in practice for small arrays
   -by hybrid algo 
     TimSort(Merge and insertion sort --> it switches to insertion sort when ur array size becomes smaller)
-    IntroSort --> hybrid sorting algo --> uses quick sort, heap sort and insertion sort
+    IntroSort --> hybrid sorting algo --> uses quick sort, heap sort and insertion sort --> it switches to insertion sort when ur array size becomes smaller)
 O(N) best case -->when ur array is sorted
   
