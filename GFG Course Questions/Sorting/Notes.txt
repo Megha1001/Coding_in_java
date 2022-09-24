@@ -31,3 +31,15 @@ Non stable : Selection sort, Quick Sort, heap sort (SHQ)
 BUBBLE SORT
 Comparision based sorting
 Passes require to sort n elements : n-1
+Complexity : O(n^2) for naive approach, O(N) with efficient approach iff array is sorted
+Inplace approach
+
+SELECTION SORT
+Comparision based sorting
+Time Complexity : O(N^2)
+Does less memory writes as compared to Quick Sort, Merge Sort, Insertion Sort etc. But cycle sort is optimal in terms of memory writes.
+   Memory writes are costly operation in some cases like EPROM --> in this if we do more memory writes life of memory gets decreased
+   ex 2 : Writing data to hardisk
+Basic idea for heapSort --> meaning heap sort uses selection sort idea by using Heap data structure
+Not stable
+Inplace appraoch
