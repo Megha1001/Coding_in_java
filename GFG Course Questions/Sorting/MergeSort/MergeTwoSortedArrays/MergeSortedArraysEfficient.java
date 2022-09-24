@@ -1,4 +1,4 @@
-//Time Complexity : O(M+N)
+//Time Complexity : Θ(M+N)
 import java.util.Arrays;
 public class MergeSortedArraysEfficient{
 
