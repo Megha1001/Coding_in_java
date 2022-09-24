@@ -42,4 +42,4 @@ Does less memory writes as compared to Quick Sort, Merge Sort, Insertion Sort et
    ex 2 : Writing data to hardisk
 Basic idea for heapSort --> meaning heap sort uses selection sort idea by using Heap data structure
 Not stable
-Inplace appraoch
+Inplace appraoch 
