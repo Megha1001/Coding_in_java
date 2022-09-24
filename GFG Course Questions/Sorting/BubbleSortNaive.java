@@ -1,6 +1,10 @@
+/*
+TIME COMPLEXITY : O(N^2)
+*/
+
 import java.util.Arrays;
 
-public class BubbleSort{
+public class BubbleSortNaive{
 
      public static void main(String []args){
         int [] arr = {10,8,20,5};
