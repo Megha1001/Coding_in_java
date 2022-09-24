@@ -26,3 +26,8 @@ Stable - for two same value of comparing field in object it maintain the order o
 
 Stable Algo : Bubble sort, Insertion sort, Merge sort (IBM)
 Non stable : Selection sort, Quick Sort, heap sort (SHQ)
+
+
+BUBBLE SORT
+Comparision based sorting
+Passes require to sort n elements : n-1
