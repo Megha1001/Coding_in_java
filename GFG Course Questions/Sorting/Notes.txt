@@ -53,4 +53,14 @@ Used in practice for small arrays
     TimSort(Merge and insertion sort --> it switches to insertion sort when ur array size becomes smaller)
     IntroSort --> hybrid sorting algo --> uses quick sort, heap sort and insertion sort --> it switches to insertion sort when ur array size becomes smaller)
 O(N) best case -->when ur array is sorted
-  
+
+
+MERGE SORT
+Divide and Conquer Algo
+Stable algorithm
+Θ(nLogN) time and O(N) aux space -> Not in place in normal/typical impl
+  but there are variations for example block sort that works in Θ(nLogN) time and in place
+well suited for external sorting --> bring in part of inputs in RAM then sort then merge the sorted parts
+It is outperforms for arrays, for arrays quickSort works better than merge sort, but it is widely used.
+
+
