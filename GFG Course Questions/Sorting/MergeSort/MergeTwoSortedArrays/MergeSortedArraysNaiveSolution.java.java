@@ -1,3 +1,5 @@
+//Time Complexity : O((m+n)log(m+n))
+
 import java.util.Arrays;
 public class MergeSortedArraysNaiveSolution{
 
@@ -12,17 +14,17 @@ public class MergeSortedArraysNaiveSolution{
         int [] res = new int [m+n];
         
         //copy 1st array into result array
-        for(int i = 0; i < m; i++){
+        for(int i = 0; i < m; i++){ //O(M)
             res[i] = arr1[i];
         }
         
         //copy 2nd array into result array
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i < n; i++){ //O(n)
             res[i+m] = arr2[i];
         }
         
         //sort the array
-        Arrays.sort(res);
+        Arrays.sort(res); //O((m+n)log(m+n))
         
         System.out.println(Arrays.toString(res));
         
