@@ -43,3 +43,14 @@ Does less memory writes as compared to Quick Sort, Merge Sort, Insertion Sort et
 Basic idea for heapSort --> meaning heap sort uses selection sort idea by using Heap data structure
 Not stable
 Inplace appraoch 
+
+
+INSERTION SORT:
+O(N^2) Worst case --> when ur array is reversed sorted
+Inplace and stable
+Used in practice for small arrays
+  -by hybrid algo 
+    TimSort(Merge and insertion sort --> it switches to insertion sort when ur array size becomes smaller)
+    IntroSort --> hybrid sorting algo --> uses quick sort, heap sort and insertion sort
+O(N) best case -->when ur array is sorted
+  
