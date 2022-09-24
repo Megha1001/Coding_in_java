@@ -9,7 +9,7 @@ public class SelectionSortInplaceImpl{
     
     static void selectionSort(int [] arr, int n){
         
-        for(int i = 0; i < n; i++){
+       for(int i = 0; i < n - 1; i++){// last element when left no need to swap it
             int idx  = i;
             for(int j = i+1; j < n; j++){
                 if(arr[idx] > arr[j]){
