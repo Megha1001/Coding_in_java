@@ -64,3 +64,16 @@ well suited for external sorting --> bring in part of inputs in RAM then sort th
 It is outperforms for arrays, for arrays quickSort works better than merge sort, but it is widely used.
 
 
+QUICK SORT
+  LOMUTO's PARTITION
+    Time Complexity : O(N) and one traversal of array
+    This algorithm works by assuming the pivot element as the last element.If any other element is given as pivot element then swap it
+    first with the last element.
+  
+  HOARE's PARTITION
+    Time Complexity : O(N) and one traversal of array but works better than Lomuto's partition
+    All the elements less than or equal to pivot are on left side, and all the elements greater than or equal to pivot are on right side
+    In this pivot is not coming to its original position that is where LOMUTO's partition is slightly better.
+    
+    But in practical Hoare's partition takes less num of comparisions and works better than Lomuto's partition
+    
