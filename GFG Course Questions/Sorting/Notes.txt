@@ -76,4 +76,14 @@ QUICK SORT
     In this pivot is not coming to its original position that is where LOMUTO's partition is slightly better.
     
     But in practical Hoare's partition takes less num of comparisions and works better than Lomuto's partition
-    
+  
+  
+  About Quick Sort
+    - Divide and Conquer Algorithm
+    - Worst Case complexity : O(N^2)
+    - Despite O(n^2) worst case, it is considered faster, because of the following
+      - In place approach
+      - Cache friendly
+      - Average time complexity : O(nLogN)
+      - Tail Recursion
+    - Partition is key function(Naive, Lomuto, Hoare)
