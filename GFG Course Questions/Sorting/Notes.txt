@@ -88,5 +88,6 @@ QUICK SORT
       - Average time complexity : O(nLogN)
       - Tail Recursion - Meaning recursive function done as a last thing, such function can be removed and write in form of loops, many compilers in java do this automatically(In python, programmer has to do this)
     - Partition is key function(Naive, Lomuto, Hoare)
-        - Naive solution --> stable, three traversal
+        - Naive solution --> stable, three traversal --> generally not used
         - Others are inplace , faster but not stable
+          - Hoare--> used most
