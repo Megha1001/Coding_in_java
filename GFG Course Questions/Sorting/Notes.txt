@@ -83,7 +83,10 @@ QUICK SORT
     - Worst Case complexity : O(N^2)
     - Despite O(n^2) worst case, it is considered faster, because of the following
       - In place approach
-      - Cache friendly
+        Meaning it doesn't require extra data structure/auxiliary space but it still requires recursion call stack
+      - Cache friendly - Since it's inplace all the elements are in main data structure
       - Average time complexity : O(nLogN)
-      - Tail Recursion
+      - Tail Recursion - Meaning recursive function done as a last thing, such function can be removed and write in form of loops, many compilers in java do this automatically(In python, programmer has to do this)
     - Partition is key function(Naive, Lomuto, Hoare)
+        - Naive solution --> stable, three traversal
+        - Others are inplace , faster but not stable
